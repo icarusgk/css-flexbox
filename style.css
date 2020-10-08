@@ -6,13 +6,15 @@
 
 .parent {
     height: 100vh;
-    border: 20px solid rgb(0, 0, 0);
+    border: 20px solid #000000;
+    display: flex;
+    justify-content: space-around;
 }
 
 .child1 {
     width: 200px;
     height: 200px;
-    background: rgb(39, 61, 134);
+    background: rgb(33, 38, 53);
 }
 
 .child2 {
