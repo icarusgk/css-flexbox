@@ -8,15 +8,15 @@
     height: 100vh;
     border: 20px solid #000000;
     display: flex;
-    /* Flex direction changes directions */
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    /* Specify the next line */
+    align-content: flex-start; 
 }
 
 .child1 {
     width: 200px;
     height: 200px;
-    background: rgb(33, 38, 53);
+    background: rgb(39, 61, 134);
 }
 
 .child2 {
@@ -29,4 +29,10 @@
     width: 200px;
     height: 200px;
     background: rgb(149, 43, 140);
+}
+
+.child4 {
+    width: 200px;
+    height: 200px;
+    background: rgb(43, 149, 84);
 }
